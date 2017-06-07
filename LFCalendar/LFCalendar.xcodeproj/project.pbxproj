@@ -7,6 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F1737D71EE5544E0021863D /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1737D61EE5544E0021863D /* EditViewController.m */; };
+		1F8E95791EE797560050C471 /* ALAssetsLibrary+custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8E95511EE797560050C471 /* ALAssetsLibrary+custom.m */; };
+		1F8E957A1EE797560050C471 /* DateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8E95531EE797560050C471 /* DateUtil.m */; };
+		1F8E957B1EE797560050C471 /* Foundation+log.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8E95541EE797560050C471 /* Foundation+log.m */; };
+		1F8E957C1EE797560050C471 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8E95561EE797560050C471 /* MBProgressHUD.m */; };
+		1F8E957D1EE797560050C471 /* NSObject+AutoEncodeDecode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8E95581EE797560050C471 /* NSObject+AutoEncodeDecode.m */; };
+		1F8E957E1EE797560050C471 /* NSString+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8E955A1EE797560050C471 /* NSString+Custom.m */; };
+		1F8E95801EE797560050C471 /* NSString+Validator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8E955E1EE797560050C471 /* NSString+Validator.m */; };
+		1F8E95811EE797560050C471 /* UIActionSheet+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8E95601EE797560050C471 /* UIActionSheet+Blocks.m */; };
+		1F8E95821EE797560050C471 /* UIApplication+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8E95621EE797560050C471 /* UIApplication+Custom.m */; };
+		1F8E95831EE797560050C471 /* UIButton+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8E95641EE797560050C471 /* UIButton+Custom.m */; };
+		1F8E95841EE797560050C471 /* UIColor+ColorChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8E95661EE797560050C471 /* UIColor+ColorChange.m */; };
+		1F8E95851EE797560050C471 /* UIColor+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8E95681EE797560050C471 /* UIColor+Create.m */; };
+		1F8E95871EE797560050C471 /* UIImagePickerController+Orientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8E956C1EE797560050C471 /* UIImagePickerController+Orientation.m */; };
+		1F8E95881EE797560050C471 /* UILabel+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8E956E1EE797560050C471 /* UILabel+Custom.m */; };
+		1F8E95891EE797560050C471 /* UITextView+FitSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8E95701EE797560050C471 /* UITextView+FitSize.m */; };
+		1F8E958A1EE797560050C471 /* UIView+addBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8E95721EE797560050C471 /* UIView+addBadge.m */; };
+		1F8E958B1EE797560050C471 /* UIView+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8E95741EE797560050C471 /* UIView+Custom.m */; };
+		1F8E958C1EE797560050C471 /* UIView+frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8E95761EE797560050C471 /* UIView+frame.m */; };
+		1F8E958D1EE797560050C471 /* UIViewController+AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8E95781EE797560050C471 /* UIViewController+AlertView.m */; };
+		1F8E96181EE79EFE0050C471 /* HMAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8E96011EE79EFE0050C471 /* HMAlbum.m */; };
+		1F8E96191EE79EFE0050C471 /* HMAlbumTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8E96031EE79EFE0050C471 /* HMAlbumTableViewCell.m */; };
+		1F8E961A1EE79EFE0050C471 /* HMAlbumTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8E96051EE79EFE0050C471 /* HMAlbumTableViewController.m */; };
+		1F8E961B1EE79EFE0050C471 /* HMImageGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8E96071EE79EFE0050C471 /* HMImageGridCell.m */; };
+		1F8E961C1EE79EFE0050C471 /* HMImageGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8E96091EE79EFE0050C471 /* HMImageGridViewController.m */; };
+		1F8E961D1EE79EFE0050C471 /* HMImageGridViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8E960B1EE79EFE0050C471 /* HMImageGridViewLayout.m */; };
+		1F8E961E1EE79EFE0050C471 /* HMImagePicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1F8E960C1EE79EFE0050C471 /* HMImagePicker.bundle */; };
+		1F8E961F1EE79EFE0050C471 /* HMImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8E960E1EE79EFE0050C471 /* HMImagePickerController.m */; };
+		1F8E96201EE79EFE0050C471 /* HMImageSelectButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8E96111EE79EFE0050C471 /* HMImageSelectButton.m */; };
+		1F8E96211EE79EFE0050C471 /* HMPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8E96131EE79EFE0050C471 /* HMPreviewViewController.m */; };
+		1F8E96221EE79EFE0050C471 /* HMSelectCounterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8E96151EE79EFE0050C471 /* HMSelectCounterButton.m */; };
+		1F8E96231EE79EFE0050C471 /* HMViewerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8E96171EE79EFE0050C471 /* HMViewerViewController.m */; };
 		1FC127D61EC15B9C005CDEE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC127D51EC15B9C005CDEE6 /* main.m */; };
 		1FC127D91EC15B9C005CDEE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC127D81EC15B9C005CDEE6 /* AppDelegate.m */; };
 		1FC127DC1EC15B9C005CDEE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC127DB1EC15B9C005CDEE6 /* ViewController.m */; };
@@ -35,6 +67,71 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F1737D31EE552D70021863D /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		1F1737D41EE5535B0021863D /* AppMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppMacro.h; sourceTree = "<group>"; };
+		1F1737D51EE5544E0021863D /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		1F1737D61EE5544E0021863D /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		1F8E95501EE797560050C471 /* ALAssetsLibrary+custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAssetsLibrary+custom.h"; sourceTree = "<group>"; };
+		1F8E95511EE797560050C471 /* ALAssetsLibrary+custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALAssetsLibrary+custom.m"; sourceTree = "<group>"; };
+		1F8E95521EE797560050C471 /* DateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateUtil.h; sourceTree = "<group>"; };
+		1F8E95531EE797560050C471 /* DateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateUtil.m; sourceTree = "<group>"; };
+		1F8E95541EE797560050C471 /* Foundation+log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+log.m"; sourceTree = "<group>"; };
+		1F8E95551EE797560050C471 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		1F8E95561EE797560050C471 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		1F8E95571EE797560050C471 /* NSObject+AutoEncodeDecode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AutoEncodeDecode.h"; sourceTree = "<group>"; };
+		1F8E95581EE797560050C471 /* NSObject+AutoEncodeDecode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AutoEncodeDecode.m"; sourceTree = "<group>"; };
+		1F8E95591EE797560050C471 /* NSString+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Custom.h"; sourceTree = "<group>"; };
+		1F8E955A1EE797560050C471 /* NSString+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Custom.m"; sourceTree = "<group>"; };
+		1F8E955D1EE797560050C471 /* NSString+Validator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Validator.h"; sourceTree = "<group>"; };
+		1F8E955E1EE797560050C471 /* NSString+Validator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Validator.m"; sourceTree = "<group>"; };
+		1F8E955F1EE797560050C471 /* UIActionSheet+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+Blocks.h"; sourceTree = "<group>"; };
+		1F8E95601EE797560050C471 /* UIActionSheet+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+Blocks.m"; sourceTree = "<group>"; };
+		1F8E95611EE797560050C471 /* UIApplication+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+Custom.h"; sourceTree = "<group>"; };
+		1F8E95621EE797560050C471 /* UIApplication+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+Custom.m"; sourceTree = "<group>"; };
+		1F8E95631EE797560050C471 /* UIButton+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Custom.h"; sourceTree = "<group>"; };
+		1F8E95641EE797560050C471 /* UIButton+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Custom.m"; sourceTree = "<group>"; };
+		1F8E95651EE797560050C471 /* UIColor+ColorChange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorChange.h"; sourceTree = "<group>"; };
+		1F8E95661EE797560050C471 /* UIColor+ColorChange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorChange.m"; sourceTree = "<group>"; };
+		1F8E95671EE797560050C471 /* UIColor+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Create.h"; sourceTree = "<group>"; };
+		1F8E95681EE797560050C471 /* UIColor+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Create.m"; sourceTree = "<group>"; };
+		1F8E956B1EE797560050C471 /* UIImagePickerController+Orientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImagePickerController+Orientation.h"; sourceTree = "<group>"; };
+		1F8E956C1EE797560050C471 /* UIImagePickerController+Orientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImagePickerController+Orientation.m"; sourceTree = "<group>"; };
+		1F8E956D1EE797560050C471 /* UILabel+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Custom.h"; sourceTree = "<group>"; };
+		1F8E956E1EE797560050C471 /* UILabel+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Custom.m"; sourceTree = "<group>"; };
+		1F8E956F1EE797560050C471 /* UITextView+FitSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+FitSize.h"; sourceTree = "<group>"; };
+		1F8E95701EE797560050C471 /* UITextView+FitSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+FitSize.m"; sourceTree = "<group>"; };
+		1F8E95711EE797560050C471 /* UIView+addBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+addBadge.h"; sourceTree = "<group>"; };
+		1F8E95721EE797560050C471 /* UIView+addBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+addBadge.m"; sourceTree = "<group>"; };
+		1F8E95731EE797560050C471 /* UIView+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Custom.h"; sourceTree = "<group>"; };
+		1F8E95741EE797560050C471 /* UIView+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Custom.m"; sourceTree = "<group>"; };
+		1F8E95751EE797560050C471 /* UIView+frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+frame.h"; sourceTree = "<group>"; };
+		1F8E95761EE797560050C471 /* UIView+frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+frame.m"; sourceTree = "<group>"; };
+		1F8E95771EE797560050C471 /* UIViewController+AlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AlertView.h"; sourceTree = "<group>"; };
+		1F8E95781EE797560050C471 /* UIViewController+AlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AlertView.m"; sourceTree = "<group>"; };
+		1F8E96001EE79EFE0050C471 /* HMAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMAlbum.h; sourceTree = "<group>"; };
+		1F8E96011EE79EFE0050C471 /* HMAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMAlbum.m; sourceTree = "<group>"; };
+		1F8E96021EE79EFE0050C471 /* HMAlbumTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMAlbumTableViewCell.h; sourceTree = "<group>"; };
+		1F8E96031EE79EFE0050C471 /* HMAlbumTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMAlbumTableViewCell.m; sourceTree = "<group>"; };
+		1F8E96041EE79EFE0050C471 /* HMAlbumTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMAlbumTableViewController.h; sourceTree = "<group>"; };
+		1F8E96051EE79EFE0050C471 /* HMAlbumTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMAlbumTableViewController.m; sourceTree = "<group>"; };
+		1F8E96061EE79EFE0050C471 /* HMImageGridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMImageGridCell.h; sourceTree = "<group>"; };
+		1F8E96071EE79EFE0050C471 /* HMImageGridCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMImageGridCell.m; sourceTree = "<group>"; };
+		1F8E96081EE79EFE0050C471 /* HMImageGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMImageGridViewController.h; sourceTree = "<group>"; };
+		1F8E96091EE79EFE0050C471 /* HMImageGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMImageGridViewController.m; sourceTree = "<group>"; };
+		1F8E960A1EE79EFE0050C471 /* HMImageGridViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMImageGridViewLayout.h; sourceTree = "<group>"; };
+		1F8E960B1EE79EFE0050C471 /* HMImageGridViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMImageGridViewLayout.m; sourceTree = "<group>"; };
+		1F8E960C1EE79EFE0050C471 /* HMImagePicker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HMImagePicker.bundle; sourceTree = "<group>"; };
+		1F8E960D1EE79EFE0050C471 /* HMImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMImagePickerController.h; sourceTree = "<group>"; };
+		1F8E960E1EE79EFE0050C471 /* HMImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMImagePickerController.m; sourceTree = "<group>"; };
+		1F8E960F1EE79EFE0050C471 /* HMImagePickerGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMImagePickerGlobal.h; sourceTree = "<group>"; };
+		1F8E96101EE79EFE0050C471 /* HMImageSelectButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMImageSelectButton.h; sourceTree = "<group>"; };
+		1F8E96111EE79EFE0050C471 /* HMImageSelectButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMImageSelectButton.m; sourceTree = "<group>"; };
+		1F8E96121EE79EFE0050C471 /* HMPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPreviewViewController.h; sourceTree = "<group>"; };
+		1F8E96131EE79EFE0050C471 /* HMPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPreviewViewController.m; sourceTree = "<group>"; };
+		1F8E96141EE79EFE0050C471 /* HMSelectCounterButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSelectCounterButton.h; sourceTree = "<group>"; };
+		1F8E96151EE79EFE0050C471 /* HMSelectCounterButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSelectCounterButton.m; sourceTree = "<group>"; };
+		1F8E96161EE79EFE0050C471 /* HMViewerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMViewerViewController.h; sourceTree = "<group>"; };
+		1F8E96171EE79EFE0050C471 /* HMViewerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMViewerViewController.m; sourceTree = "<group>"; };
 		1FC127D11EC15B9C005CDEE6 /* LFCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LFCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC127D51EC15B9C005CDEE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1FC127D71EC15B9C005CDEE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +175,81 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F8E954F1EE797560050C471 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				1F8E95501EE797560050C471 /* ALAssetsLibrary+custom.h */,
+				1F8E95511EE797560050C471 /* ALAssetsLibrary+custom.m */,
+				1F8E95521EE797560050C471 /* DateUtil.h */,
+				1F8E95531EE797560050C471 /* DateUtil.m */,
+				1F8E95541EE797560050C471 /* Foundation+log.m */,
+				1F8E95551EE797560050C471 /* MBProgressHUD.h */,
+				1F8E95561EE797560050C471 /* MBProgressHUD.m */,
+				1F8E95571EE797560050C471 /* NSObject+AutoEncodeDecode.h */,
+				1F8E95581EE797560050C471 /* NSObject+AutoEncodeDecode.m */,
+				1F8E95591EE797560050C471 /* NSString+Custom.h */,
+				1F8E955A1EE797560050C471 /* NSString+Custom.m */,
+				1F8E955D1EE797560050C471 /* NSString+Validator.h */,
+				1F8E955E1EE797560050C471 /* NSString+Validator.m */,
+				1F8E955F1EE797560050C471 /* UIActionSheet+Blocks.h */,
+				1F8E95601EE797560050C471 /* UIActionSheet+Blocks.m */,
+				1F8E95611EE797560050C471 /* UIApplication+Custom.h */,
+				1F8E95621EE797560050C471 /* UIApplication+Custom.m */,
+				1F8E95631EE797560050C471 /* UIButton+Custom.h */,
+				1F8E95641EE797560050C471 /* UIButton+Custom.m */,
+				1F8E95651EE797560050C471 /* UIColor+ColorChange.h */,
+				1F8E95661EE797560050C471 /* UIColor+ColorChange.m */,
+				1F8E95671EE797560050C471 /* UIColor+Create.h */,
+				1F8E95681EE797560050C471 /* UIColor+Create.m */,
+				1F8E956B1EE797560050C471 /* UIImagePickerController+Orientation.h */,
+				1F8E956C1EE797560050C471 /* UIImagePickerController+Orientation.m */,
+				1F8E956D1EE797560050C471 /* UILabel+Custom.h */,
+				1F8E956E1EE797560050C471 /* UILabel+Custom.m */,
+				1F8E956F1EE797560050C471 /* UITextView+FitSize.h */,
+				1F8E95701EE797560050C471 /* UITextView+FitSize.m */,
+				1F8E95711EE797560050C471 /* UIView+addBadge.h */,
+				1F8E95721EE797560050C471 /* UIView+addBadge.m */,
+				1F8E95731EE797560050C471 /* UIView+Custom.h */,
+				1F8E95741EE797560050C471 /* UIView+Custom.m */,
+				1F8E95751EE797560050C471 /* UIView+frame.h */,
+				1F8E95761EE797560050C471 /* UIView+frame.m */,
+				1F8E95771EE797560050C471 /* UIViewController+AlertView.h */,
+				1F8E95781EE797560050C471 /* UIViewController+AlertView.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		1F8E95FF1EE79EFE0050C471 /* HMImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				1F8E96001EE79EFE0050C471 /* HMAlbum.h */,
+				1F8E96011EE79EFE0050C471 /* HMAlbum.m */,
+				1F8E96021EE79EFE0050C471 /* HMAlbumTableViewCell.h */,
+				1F8E96031EE79EFE0050C471 /* HMAlbumTableViewCell.m */,
+				1F8E96041EE79EFE0050C471 /* HMAlbumTableViewController.h */,
+				1F8E96051EE79EFE0050C471 /* HMAlbumTableViewController.m */,
+				1F8E96061EE79EFE0050C471 /* HMImageGridCell.h */,
+				1F8E96071EE79EFE0050C471 /* HMImageGridCell.m */,
+				1F8E96081EE79EFE0050C471 /* HMImageGridViewController.h */,
+				1F8E96091EE79EFE0050C471 /* HMImageGridViewController.m */,
+				1F8E960A1EE79EFE0050C471 /* HMImageGridViewLayout.h */,
+				1F8E960B1EE79EFE0050C471 /* HMImageGridViewLayout.m */,
+				1F8E960C1EE79EFE0050C471 /* HMImagePicker.bundle */,
+				1F8E960D1EE79EFE0050C471 /* HMImagePickerController.h */,
+				1F8E960E1EE79EFE0050C471 /* HMImagePickerController.m */,
+				1F8E960F1EE79EFE0050C471 /* HMImagePickerGlobal.h */,
+				1F8E96101EE79EFE0050C471 /* HMImageSelectButton.h */,
+				1F8E96111EE79EFE0050C471 /* HMImageSelectButton.m */,
+				1F8E96121EE79EFE0050C471 /* HMPreviewViewController.h */,
+				1F8E96131EE79EFE0050C471 /* HMPreviewViewController.m */,
+				1F8E96141EE79EFE0050C471 /* HMSelectCounterButton.h */,
+				1F8E96151EE79EFE0050C471 /* HMSelectCounterButton.m */,
+				1F8E96161EE79EFE0050C471 /* HMViewerViewController.h */,
+				1F8E96171EE79EFE0050C471 /* HMViewerViewController.m */,
+			);
+			path = HMImagePicker;
+			sourceTree = "<group>";
+		};
 		1FC127C81EC15B9C005CDEE6 = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +273,14 @@
 		1FC127D31EC15B9C005CDEE6 /* LFCalendar */ = {
 			isa = PBXGroup;
 			children = (
+				1F8E95FF1EE79EFE0050C471 /* HMImagePicker */,
+				1F8E954F1EE797560050C471 /* Category */,
 				1FC127D71EC15B9C005CDEE6 /* AppDelegate.h */,
 				1FC127D81EC15B9C005CDEE6 /* AppDelegate.m */,
 				1FC127DA1EC15B9C005CDEE6 /* ViewController.h */,
 				1FC127DB1EC15B9C005CDEE6 /* ViewController.m */,
+				1F1737D51EE5544E0021863D /* EditViewController.h */,
+				1F1737D61EE5544E0021863D /* EditViewController.m */,
 				1FC127DD1EC15B9C005CDEE6 /* Main.storyboard */,
 				1FC127E01EC15B9C005CDEE6 /* Assets.xcassets */,
 				1FC127E21EC15B9C005CDEE6 /* LaunchScreen.storyboard */,
@@ -118,6 +294,8 @@
 			isa = PBXGroup;
 			children = (
 				1FC127D51EC15B9C005CDEE6 /* main.m */,
+				1F1737D31EE552D70021863D /* PrefixHeader.pch */,
+				1F1737D41EE5535B0021863D /* AppMacro.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -251,6 +429,7 @@
 			files = (
 				1FC127E41EC15B9C005CDEE6 /* LaunchScreen.storyboard in Resources */,
 				1FC127E11EC15B9C005CDEE6 /* Assets.xcassets in Resources */,
+				1F8E961E1EE79EFE0050C471 /* HMImagePicker.bundle in Resources */,
 				1FC127DF1EC15B9C005CDEE6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,9 +455,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F8E958C1EE797560050C471 /* UIView+frame.m in Sources */,
+				1F8E95791EE797560050C471 /* ALAssetsLibrary+custom.m in Sources */,
+				1F8E961B1EE79EFE0050C471 /* HMImageGridCell.m in Sources */,
+				1F8E95821EE797560050C471 /* UIApplication+Custom.m in Sources */,
+				1F8E95891EE797560050C471 /* UITextView+FitSize.m in Sources */,
+				1F1737D71EE5544E0021863D /* EditViewController.m in Sources */,
+				1F8E958A1EE797560050C471 /* UIView+addBadge.m in Sources */,
+				1F8E961D1EE79EFE0050C471 /* HMImageGridViewLayout.m in Sources */,
+				1F8E957E1EE797560050C471 /* NSString+Custom.m in Sources */,
+				1F8E95811EE797560050C471 /* UIActionSheet+Blocks.m in Sources */,
+				1F8E96211EE79EFE0050C471 /* HMPreviewViewController.m in Sources */,
+				1F8E96231EE79EFE0050C471 /* HMViewerViewController.m in Sources */,
+				1F8E96191EE79EFE0050C471 /* HMAlbumTableViewCell.m in Sources */,
 				1FC127DC1EC15B9C005CDEE6 /* ViewController.m in Sources */,
+				1F8E961C1EE79EFE0050C471 /* HMImageGridViewController.m in Sources */,
+				1F8E957A1EE797560050C471 /* DateUtil.m in Sources */,
+				1F8E958D1EE797560050C471 /* UIViewController+AlertView.m in Sources */,
+				1F8E95831EE797560050C471 /* UIButton+Custom.m in Sources */,
 				1FC127D91EC15B9C005CDEE6 /* AppDelegate.m in Sources */,
+				1F8E957D1EE797560050C471 /* NSObject+AutoEncodeDecode.m in Sources */,
+				1F8E95801EE797560050C471 /* NSString+Validator.m in Sources */,
+				1F8E961A1EE79EFE0050C471 /* HMAlbumTableViewController.m in Sources */,
+				1F8E957B1EE797560050C471 /* Foundation+log.m in Sources */,
+				1F8E95841EE797560050C471 /* UIColor+ColorChange.m in Sources */,
+				1F8E95881EE797560050C471 /* UILabel+Custom.m in Sources */,
+				1F8E96181EE79EFE0050C471 /* HMAlbum.m in Sources */,
+				1F8E961F1EE79EFE0050C471 /* HMImagePickerController.m in Sources */,
+				1F8E95851EE797560050C471 /* UIColor+Create.m in Sources */,
+				1F8E96221EE79EFE0050C471 /* HMSelectCounterButton.m in Sources */,
 				1FC127D61EC15B9C005CDEE6 /* main.m in Sources */,
+				1F8E957C1EE797560050C471 /* MBProgressHUD.m in Sources */,
+				1F8E958B1EE797560050C471 /* UIView+Custom.m in Sources */,
+				1F8E96201EE79EFE0050C471 /* HMImageSelectButton.m in Sources */,
+				1F8E95871EE797560050C471 /* UIImagePickerController+Orientation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +640,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2Y8FL748PL;
+				GCC_PREFIX_HEADER = LFCalendar/PrefixHeader.pch;
 				INFOPLIST_FILE = LFCalendar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lufei.LFCalendar;
@@ -442,6 +653,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2Y8FL748PL;
+				GCC_PREFIX_HEADER = LFCalendar/PrefixHeader.pch;
 				INFOPLIST_FILE = LFCalendar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lufei.LFCalendar;
@@ -518,6 +730,7 @@
 				1FC128001EC15B9C005CDEE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC128011EC15B9C005CDEE6 /* Build configuration list for PBXNativeTarget "LFCalendarTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +739,7 @@
 				1FC128031EC15B9C005CDEE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC128041EC15B9C005CDEE6 /* Build configuration list for PBXNativeTarget "LFCalendarUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +748,7 @@
 				1FC128061EC15B9C005CDEE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

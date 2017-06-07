@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "EditViewController.h"
 
 @interface ViewController ()
 
@@ -19,6 +20,12 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (IBAction)editDidClick:(id)sender {
+    
+    EditViewController *editVc = [EditViewController new];
+    [self presentViewController:editVc animated:YES completion:nil];
+    
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
