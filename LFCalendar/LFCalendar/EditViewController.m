@@ -14,6 +14,7 @@
 @property (nonatomic,strong) UITextField *titleTf;
 @property (nonatomic,strong) UITextView *editTv;
 @property (nonatomic,strong) UIView *keyBoardView;
+@property (nonatomic,strong) UIView *headView;
 
 @property (nonatomic) NSArray *images;
 @property (nonatomic) NSArray *selectedAssets;
@@ -46,10 +47,43 @@
     self.images = images;
     self.selectedAssets = selectedAssets;
     
+//    [self drawImg];
+    
+    [self copyBtnClick];
+    
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
-- (void)textViewDidBeginEditing:(UITextView *)textView{
+- (void)copyBtnClick{
+    
+    NSMutableAttributedString *string = [[NSMutableAttributedString alloc] initWithAttributedString:self.editTv.attributedText];
+    
+    NSTextAttachment *textAttachment = [[NSTextAttachment alloc] initWithData:nil ofType:nil] ;
+    textAttachment.image = [UIImage imageNamed:@"cover_allnote"];
+    
+    NSAttributedString *textAttachmentString = [NSAttributedString attributedStringWithAttachment:textAttachment] ;
+    
+    [string insertAttributedString:textAttachmentString atIndex:self.editTv.selectedRange.location];
+    self.editTv.attributedText = string;
+    
+}
+
+- (void) drawImg{
+    
+    for (int i = 0; i < self.images.count; i++) {
+        
+        UIImage *temImg = self.images[i];
+        
+        UIImageView *imgView = [[UIImageView alloc] initWithImage:temImg];
+        imgView.layer.cornerRadius = 5;
+        imgView.clipsToBounds = YES;
+        imgView.frame = CGRectMake(15, 20, kScreenWidth-30, (kScreenWidth-30)*temImg.size.height/temImg.size.width);
+        
+        [self.editTv addSubview:imgView];
+    }
+}
+
+- (void) textViewDidBeginEditing:(UITextView *)textView{
     
     self.keyBoardView.frame = CGRectMake(0, kScreenHeight-30-216-45, kScreenWidth, 30);
 }
@@ -66,10 +100,47 @@
 
 }
 
+- (UIView *) headView{
+    
+    if (_headView == nil) {
+        
+        _headView = [[UIView alloc] initWithFrame:CGRectMake(0, kScreenHeight-30, kScreenWidth, 30)];
+        _headView.backgroundColor = [UIColor whiteColor];
+        
+        UIButton *cancelBtn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 30, 30)];
+        [cancelBtn setImage:[UIImage imageNamed:@"ne_btn_ picture_normal"] forState:UIControlStateNormal];
+        [cancelBtn setImage:[UIImage imageNamed:@"ne_btn_ picture_pressed"] forState:UIControlStateHighlighted];
+        
+        [cancelBtn addTarget:self action:@selector(cancelDidClick) forControlEvents:UIControlEventTouchUpInside];
+        
+        UIButton *saveBtn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 30, 30)];
+        [saveBtn setImage:[UIImage imageNamed:@"ne_btn_ picture_normal"] forState:UIControlStateNormal];
+        [saveBtn setImage:[UIImage imageNamed:@"ne_btn_ picture_pressed"] forState:UIControlStateHighlighted];
+        
+        [saveBtn addTarget:self action:@selector(saveDidClick) forControlEvents:UIControlEventTouchUpInside];
+        
+        [_headView addSubview:cancelBtn];
+        [_headView addSubview:saveBtn];
+
+    }
+    return _headView;
+}
+
+- (void) saveDidClick{
+    
+    //...save...
+}
+
+- (void) cancelDidClick{
+
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
 - (UIView *) keyBoardView{
     
     if (_keyBoardView == nil) {
         _keyBoardView = [[UIView alloc] initWithFrame:CGRectMake(0, kScreenHeight-30, kScreenWidth, 30)];
+        _keyBoardView.backgroundColor = [UIColor whiteColor];
         
         UIButton *imgBtn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 30, 30)];
         [imgBtn setImage:[UIImage imageNamed:@"ne_btn_ picture_normal"] forState:UIControlStateNormal];

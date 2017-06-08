@@ -39,6 +39,7 @@
 		1F8E96211EE79EFE0050C471 /* HMPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8E96131EE79EFE0050C471 /* HMPreviewViewController.m */; };
 		1F8E96221EE79EFE0050C471 /* HMSelectCounterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8E96151EE79EFE0050C471 /* HMSelectCounterButton.m */; };
 		1F8E96231EE79EFE0050C471 /* HMViewerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8E96171EE79EFE0050C471 /* HMViewerViewController.m */; };
+		1F8E96261EE8EFC10050C471 /* BaseDataInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8E96241EE8EFC10050C471 /* BaseDataInfo.m */; };
 		1FC127D61EC15B9C005CDEE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC127D51EC15B9C005CDEE6 /* main.m */; };
 		1FC127D91EC15B9C005CDEE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC127D81EC15B9C005CDEE6 /* AppDelegate.m */; };
 		1FC127DC1EC15B9C005CDEE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC127DB1EC15B9C005CDEE6 /* ViewController.m */; };
@@ -132,6 +133,8 @@
 		1F8E96151EE79EFE0050C471 /* HMSelectCounterButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSelectCounterButton.m; sourceTree = "<group>"; };
 		1F8E96161EE79EFE0050C471 /* HMViewerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMViewerViewController.h; sourceTree = "<group>"; };
 		1F8E96171EE79EFE0050C471 /* HMViewerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMViewerViewController.m; sourceTree = "<group>"; };
+		1F8E96241EE8EFC10050C471 /* BaseDataInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDataInfo.m; sourceTree = "<group>"; };
+		1F8E96251EE8EFC10050C471 /* BaseDataInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDataInfo.h; sourceTree = "<group>"; };
 		1FC127D11EC15B9C005CDEE6 /* LFCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LFCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC127D51EC15B9C005CDEE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1FC127D71EC15B9C005CDEE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -277,6 +280,8 @@
 				1F8E954F1EE797560050C471 /* Category */,
 				1FC127D71EC15B9C005CDEE6 /* AppDelegate.h */,
 				1FC127D81EC15B9C005CDEE6 /* AppDelegate.m */,
+				1F8E96251EE8EFC10050C471 /* BaseDataInfo.h */,
+				1F8E96241EE8EFC10050C471 /* BaseDataInfo.m */,
 				1FC127DA1EC15B9C005CDEE6 /* ViewController.h */,
 				1FC127DB1EC15B9C005CDEE6 /* ViewController.m */,
 				1F1737D51EE5544E0021863D /* EditViewController.h */,
@@ -483,6 +488,7 @@
 				1F8E96181EE79EFE0050C471 /* HMAlbum.m in Sources */,
 				1F8E961F1EE79EFE0050C471 /* HMImagePickerController.m in Sources */,
 				1F8E95851EE797560050C471 /* UIColor+Create.m in Sources */,
+				1F8E96261EE8EFC10050C471 /* BaseDataInfo.m in Sources */,
 				1F8E96221EE79EFE0050C471 /* HMSelectCounterButton.m in Sources */,
 				1FC127D61EC15B9C005CDEE6 /* main.m in Sources */,
 				1F8E957C1EE797560050C471 /* MBProgressHUD.m in Sources */,
