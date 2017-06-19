@@ -17,6 +17,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    
+    TestVc *vc = [[TestVc alloc] init];
+    
+    NSLog(@"%@", vc);
+    
+    
     return YES;
 }
 

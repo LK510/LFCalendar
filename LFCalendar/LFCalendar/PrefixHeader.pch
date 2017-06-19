@@ -15,6 +15,8 @@
 #import "AppMacro.h"
 #import "UIView+frame.h"
 
+#import "LFCalendar-Swift.h"
+
 #ifdef DEBUG
 
 
